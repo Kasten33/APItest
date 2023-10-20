@@ -6,6 +6,14 @@
     <title>My API Test</title>
 </head>
 <body>
-    
+    <!--  Inspect this document, and check the console tab to see if your data is there -->
 </body>
+<script>
+    const data = "https://iskarr.github.io/austindonovan.github.io/api/business.json"
+    fetch("https://iskarr.github.io/austindonovan.github.io/api/business.json")
+.then((response) => response.json())
+.then((jsObject) => {
+console.log(jsObject);
+})
+</script>
 </html>
